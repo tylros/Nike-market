@@ -32,6 +32,7 @@ function SpecialOffer() {
         <div className="mt-11 flex flex-wrap gap-4">
           <Button label="Shop now" iconUrl={arrowRight} />
           <Button
+            className="transition-colors duration-300"
             label="Learn more"
             backgroundColor="bg-white"
             borderColor="border-slate-gray"

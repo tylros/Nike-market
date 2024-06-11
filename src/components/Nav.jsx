@@ -10,10 +10,10 @@ function Nav() {
        src={headerLogo}
       />
      </a>
-     <ul className=' flex-1 flex justify-center items-center gap-16 max-lg:hidden'>
+     <ul className=' flex-1 flex justify-center items-center gap-10 max-lg:hidden'>
       {navLinks.map((link) => (
        <li key={link.label}>
-        <a href={link.href} className='font-monserrat leading-normal text-lg text-slate-gray '>
+        <a href={link.href} className='font-monserrat font-medium leading-normal text-lg text-slate-gray '>
          {link.label}
         </a>
      </li>

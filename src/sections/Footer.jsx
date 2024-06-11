@@ -17,7 +17,7 @@ function Footer() {
           </p>
           <div className="flex items-center gap-5 mt-8">
             {socialMedia.map((icon) => (
-              <div key={icon.alt} className="flex justify-center items-center w-12 h-12 bg-white rounded-full ">
+              <div key={icon.alt} className="flex justify-center items-center w-12 h-12 bg-white rounded-full hover:bg-slate-400 transition-colors duration-200  ">
                 <img
                   src={icon.src}
                   alt={icon.alt}

@@ -9,7 +9,9 @@ function Button({ label, iconUrl, backgroundColor, borderColor, textColor, fullW
         ? `${backgroundColor} ${borderColor} ${textColor} `
         : " bg-coral-red text-white border-coral-red "
     } 
-    rounded-full ${fullWidth && 'w-full'}
+    rounded-full ${
+      fullWidth && "w-full"
+    }  hover:bg-coral-red hover:border
     `}
     >
       {label}

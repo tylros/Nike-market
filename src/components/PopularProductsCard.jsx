@@ -6,7 +6,7 @@ const PopularProductsCard = ({imgURL, name, price}) => {
   <img
    src={imgURL}
    alt={name}
-   className="w-[280px] h-[280px]"
+   className="w-[280px] h-[280px] cursor-pointer hover:scale-105 transition-transform duration-300"
   />
   <div className="mt-8 flex justify-start gap-2.5">
    <img
